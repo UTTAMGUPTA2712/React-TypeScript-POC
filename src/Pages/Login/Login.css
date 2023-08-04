@@ -1,0 +1,44 @@
+#login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff url("../../Assets/Images/loginBackground.png") no-repeat
+    center center;
+  background-size: cover;
+  & form {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 9px 30px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    & h1 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+  }
+}
+.input-field {
+  height: 3rem;
+  font-size: 1rem;
+  width: 20rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+.btn {
+  height: 3rem;
+  font-size: 2rem;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:disabled{
+  cursor: no-drop;
+}

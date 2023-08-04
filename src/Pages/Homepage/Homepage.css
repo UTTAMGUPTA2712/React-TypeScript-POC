@@ -1,0 +1,11 @@
+#home{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: #fff url("../../Assets/Images/HomeBackground.png") no-repeat center center;
+    background-size:  cover ;
+    background-attachment: fixed;
+}
+#home-div{
+    overflow-y: auto;
+}
